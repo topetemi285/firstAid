@@ -19,16 +19,16 @@ class ItemCardAmp extends StatelessWidget {
           Expanded(
             child:Container(
               height: 150,
-              width: 180,
+              width: 200,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(1),
-                border: Border.all(color: Colors.indigo[900],),
+                border: Border.all(color: Colors.black,),
               ),
               child: Image(
                 // height: 200,
                 // width: 160,
-                image: NetworkImage(aid.image),
+                image: NetworkImage(aid.imageHome),
                 fit: BoxFit.fill,
               ),
 
@@ -38,12 +38,13 @@ class ItemCardAmp extends StatelessWidget {
 
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 0, horizontal: 10),
-
             child:Container(
               height:30,
-              width:160,
+              width:200,
               decoration:BoxDecoration(
-                color: Colors.indigo[900],
+                borderRadius: BorderRadius.circular(5),
+                border: Border.all(color: Colors.black,),
+                color: Colors.black,
               ),
               child: Text(aid.title,
                 style: TextStyle(color: Colors.white,
@@ -52,6 +53,7 @@ class ItemCardAmp extends StatelessWidget {
               ),
             ),
           ),
+          
         ],
       ),
     );

@@ -37,7 +37,7 @@ class _SplashScreenState extends State<SplashScreen> {
                               child: Text("FIRST AID",
                                   style: TextStyle(
                                       fontSize: 50,
-                                      color:Colors.greenAccent,
+                                      color:Colors.black,
                                        // fontFamily: "SchoolBell",
                                       fontWeight: FontWeight.bold)),
                             ),
@@ -46,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen> {
                               child: Text("EMERGENCE",
                                   style: TextStyle(
                                       fontSize: 30,
-                                      color:Colors.greenAccent,
+                                      color:Colors.black,
                                        // fontFamily: "SchoolBell",
                                       fontWeight: FontWeight.bold)),
                             ),
@@ -56,7 +56,7 @@ class _SplashScreenState extends State<SplashScreen> {
                               child: Text("THE GUIDELINES FOR THE FIRST AND IMMEDIATE ASSISTANCE GIVEN TO ANY PERSON SUFFERING FROM EITHER A MINOR OR SERIOUS ILLNESS OR INJURY ARE PROVIDE IN THIS APP",
                                   style: TextStyle(
                                       fontSize: 10,
-                                      color:Colors.greenAccent,
+                                      color:Colors.black,
                                        // fontFamily: "SchoolBell",
                                       fontWeight: FontWeight.bold)),
                             ),
@@ -79,13 +79,13 @@ class _SplashScreenState extends State<SplashScreen> {
                             ),
                           ),
 
-                          Image(
-                            height: 300,
-                            width: 1000,
-                            image:AssetImage("assets/bgImage.png"),
-                            fit:BoxFit.contain,
+                          // Image(
+                          //   height: 300,
+                          //   width: 1000,
+                          //   image:AssetImage("assets/bgImage.png"),
+                          //   fit:BoxFit.contain,
                             
-                  ),
+                 // ),
               
                         ],
                       ),
